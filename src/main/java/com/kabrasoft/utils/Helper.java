@@ -1,5 +1,7 @@
 package com.kabrasoft.utils;
 
+import com.kabrasoft.models.Cause;
+import com.kabrasoft.models.Squad;
 import com.kabrasoft.models.Strength;
 import com.kabrasoft.models.Weakness;
 
@@ -31,5 +33,17 @@ public final class Helper {
         strengthList.add(new Strength(5,"level 4", 90));
         strengthList.add(new Strength(6,"level 5", 100));
         return strengthList;
+    }
+
+    public static List<Squad> sampleSquad() {
+        List<Squad> squadList = new ArrayList<>();
+        squadList.add(new Squad(1,"Kenya",7,1, Cause.SEXISM));
+        squadList.add(new Squad(1,"Uganda",7,1, Cause.COMPUTER_ILLITERACY));
+        squadList.add(new Squad(1,"Tanzania",7,1, Cause.HOGGING_BUS_SEATS_WITH_BACKPACK));
+        squadList.add(new Squad(1,"Niger",7,1, Cause.PASSIVE_AGGRESSIVE_POST_IT_NOTES));
+        squadList.add(new Squad(1,"Nigeria",7,1, Cause.SEXISM));
+        squadList.add(new Squad(1,"Cameroon",7,1, Cause.NOT_COVERING_MOUTH_WHEN_SNEEZE));
+
+        return squadList;
     }
 }
