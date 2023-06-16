@@ -1,0 +1,9 @@
+package com.kabrasoft.models;
+
+public enum Cause {
+    SEXISM,
+    COMPUTER_ILLITERACY,
+    NOT_COVERING_MOUTH_WHEN_SNEEZE,
+    HOGGING_BUS_SEATS_WITH_BACKPACK,
+    PASSIVE_AGGRESSIVE_POST_IT_NOTES
+}
